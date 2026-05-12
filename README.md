@@ -1,4 +1,4 @@
-# HearthWatch: Smart Stove Safety Sentinel 🛡️🔥
+# HearthWatch: Smart Stove Safety Sentinel
 
 **Project Name:** HearthWatch  
 **Developer:** Menden Cannistra  
