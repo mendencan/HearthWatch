@@ -57,7 +57,7 @@ Identify the long and short pins on the buzzer:
 ## Circuit Diagrams & Schematics
 Below is a custom hand-drawn schematic illustrating the complete hardware topology and signal flow for the system.
 
-![Circuit Diagram](circuit_diagram.png)  
+![Circuit Diagram](images/MendenCanistraCircuitDiagram.jpg) 
 
 ### Wiring Summary Table
 | Component | Pin Type | Connection Point | Function |
@@ -74,6 +74,10 @@ Below is a custom hand-drawn schematic illustrating the complete hardware topolo
 | **DHT11** | GND | GND Rail | Ground |
 | **Active Buzzer** | (+) | GP13 (Pin 17) | Alarm Trigger |
 | **Active Buzzer** | (-) | GND Rail | Ground |
+
+### Hardware Visualization
+The physical prototype was built using the following arrangement, demonstrating the connection points described above. 
+![Wiring Photo](images/MendenCanistraWirePhoto.jpg)
 
 ## Software Development & Logic
 The software is written in **MicroPython** and runs as a standalone script (`main.py`). It utilizes sensor fusion to ensure reliability.
