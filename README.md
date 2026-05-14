@@ -99,7 +99,7 @@ INACTIVITY_TIMEOUT = 30   # Seconds before warning (Configurable)
 # Example: Sensor Fusion Logic
 if delta_t >= HEAT_THRESHOLD and not is_occupied and current_unattended >= INACTIVITY_TIMEOUT:
     buzzer.value(1)  # Alert Triggered
-
+```
 ### Demo & Presentation
 Video Presentation: https://youtu.be/xTX9wiHq8AI
 GitHub Repository: https://github.com/mendencan/HearthWatch
