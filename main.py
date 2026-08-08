@@ -21,12 +21,12 @@ BUZZER_PIN = 13
 R_FIXED = 10000     
 # The Beta parameter for the thermistor, which is a characteristic of the specific thermistor you are using. Adjust if you have a different thermistor. 
 BETA = 3950   
-# The reference temperature (in Kelvin) for the thermistor, typically 25°C. Adjust if your thermistor has a different reference temperature.       
+# The reference temperature (in Kelvin) for the thermistor, typically 25°C. Adjust if thermistor has a different reference temperature.       
 T0 = 298.15          
 # The offset to calibrate the thermistor readings. This value was determined experimentally to align the thermistor readings with the DHT11 temperature. Adjust if you find a different offset works better for your setup.
 THERMISTOR_OFFSET = -8.87
 
-# These are the thresholds for the safety logic. Adjust these values based on your specific requirements and testing.
+# These are the thresholds for the safety logic. These values can be adjusted as needed. 
 HEAT_THRESHOLD = 4.0      # ΔT required to trigger a watch state
 INACTIVITY_TIMEOUT = 30   # Seconds before warning (Set to 30 seconds by default)
 
