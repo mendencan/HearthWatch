@@ -110,8 +110,8 @@ def main():
             print(f"System Error (Possible sensor fault): {e}")
             # Contiunously sounds buzzer until user unplugs device. This is for safety purposes. User will likely first be summoned to inspect stovetop or other surface. A false alarm is better than no alarm. 
             buzzer.value(1)  # Alert on error
-        # This pauses the entire program execution for one second before starting the loop over again. This gives the hardware time to process and prevents flooding of the terminal. 
+        # This pauses the entire program execution for one second. 
         utime.sleep(1)
-# This means the script is run if it is run directly by the user. Save the file as main.py on the pico and it will run automatically on startup. 
+# Save the file as main.py on the pico and it will run automatically on startup. 
 if __name__ == "__main__":
     main()
